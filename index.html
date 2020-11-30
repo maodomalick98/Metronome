@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Metronome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">Test Metronome</div>
+    
+    <button type="button" id ="Lancer" class="btn btn-primary btn-lg">Lancer</button>
+    
+    <div class="tempo-controls">
+
+
+        <div class="tempo-container">
+            <div id="tempo"></div>
+            <div class="bpm">bpm</div>
+        </div>
+
+    </div>
+    <audio
+        controls
+        src="Drumsticks.wav" id="audio">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+   
+
+
+    <script src="metronome.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
